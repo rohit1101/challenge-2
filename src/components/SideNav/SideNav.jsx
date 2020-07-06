@@ -13,8 +13,10 @@ import { Two } from "./Two";
 export function SideNav() {
   return (
     <div className={styles.nav}>
-      <One speed={speedometer} graph={graph} timer={timerWhite} logo={logo} />
-      <Two todo={todo} invoice={invoice} timer={timerWhite} folder={folder} />
+      <div className="side">
+        <One speed={speedometer} graph={graph} timer={timerWhite} logo={logo} />
+        <Two todo={todo} invoice={invoice} timer={timerWhite} folder={folder} />
+      </div>
     </div>
   );
 }

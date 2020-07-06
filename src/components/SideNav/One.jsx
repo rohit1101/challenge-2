@@ -3,9 +3,10 @@ import styles from "./SideNav.module.css";
 
 import { Icon } from "./Icon";
 
-export function One({ speed, graph, timer }) {
+export function One({ speed, graph, timer, logo }) {
   return (
     <>
+      <img className={styles.first} src={logo} alt="" />
       <div className={styles.dash}>
         <Icon image={speed} />
         <h2>Dashboard</h2>
@@ -18,6 +19,7 @@ export function One({ speed, graph, timer }) {
         <Icon image={timer} />
         <h2>TimeSheet</h2>
       </div>
+      <hr />
     </>
   );
 }
