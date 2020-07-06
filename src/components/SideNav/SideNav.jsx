@@ -16,6 +16,10 @@ export function SideNav() {
       <div className="side">
         <One speed={speedometer} graph={graph} timer={timerWhite} logo={logo} />
         <Two todo={todo} invoice={invoice} timer={timerWhite} folder={folder} />
+        {/* <Three /> */}
+      </div>
+      <div className={styles.center}>
+        <p>HEllo</p>
       </div>
     </div>
   );
