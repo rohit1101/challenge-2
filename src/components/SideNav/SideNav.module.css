@@ -1,5 +1,7 @@
 .nav {
   background-color: rgb(71, 68, 233);
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .dash,
