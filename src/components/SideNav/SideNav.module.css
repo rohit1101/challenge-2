@@ -1,2 +1,13 @@
-.main {
+.nav {
+  background-color: rgb(71, 68, 233);
+}
+
+.dash,
+.activ,
+.time {
+  padding: 2rem 2rem;
+}
+
+.nav .first {
+  padding: 2rem 2rem;
 }
