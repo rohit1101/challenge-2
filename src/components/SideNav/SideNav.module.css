@@ -17,6 +17,7 @@
 .activ h2,
 .time h2 {
   padding: 0 2rem;
+  color: #fff;
 }
 
 .first {
@@ -24,11 +25,18 @@
 }
 
 hr {
-  width: 2%;
-
+  width: 12%;
   margin: 0 4rem;
 }
 
 .center {
   background-color: #f8f8f8;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: aqua;
 }

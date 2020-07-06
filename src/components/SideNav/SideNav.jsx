@@ -19,7 +19,10 @@ export function SideNav() {
         {/* <Three /> */}
       </div>
       <div className={styles.center}>
-        <p>HEllo</p>
+        <div className={styles.top}>
+          <button>Design Task</button>
+          <button>Add Project</button>
+        </div>
       </div>
     </div>
   );
