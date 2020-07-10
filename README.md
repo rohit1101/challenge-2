@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### This project will delayed.
+### This project will be started today.
 
 ## Available Scripts
 
